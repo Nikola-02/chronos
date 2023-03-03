@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Audemars Piguet",
+    "img": "ap.png"
+  },
+  {
+    "name": "Cartier",
+    "img": "cartier.png"
+  },
+  {
+    "name": "Richard mille",
+    "img": "richard.png"
+  },
+  {
+    "name": "Chopard",
+    "img": "chopard.png"
+  },
+  {
+    "name": "Rolex",
+    "img": "rolex.png"
+  },
+  {
+    "name": "Fossil",
+    "img": "fossil.png"
+  },
+  {
+    "name": "Omega",
+    "img": "omega.png"
+  },
+  {
+    "name": "Hublot",
+    "img": "hublot.png"
+  }
+]

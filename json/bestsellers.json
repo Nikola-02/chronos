@@ -1,0 +1,32 @@
+[
+  {
+    "name": "L.U.C XPS",
+    "brend": "Chopard",
+    "price": {
+      "oldPrice": 1499,
+      "newPrice": 1399
+    },
+    "img": "bestseller_11.png",
+    "top": false
+  },
+  {
+    "name": "Submariner",
+    "brend": "Rolex",
+    "price": {
+      "oldPrice": 2499,
+      "newPrice": 1999
+    },
+    "img": "bestseller-middle.png",
+    "top": true
+  },
+  {
+    "name": "Chronograph",
+    "brend": "Audemars Piguet",
+    "price": {
+      "oldPrice": 1799,
+      "newPrice": 1599
+    },
+    "img": "bestseller_22.png",
+    "top": false
+  }
+]
