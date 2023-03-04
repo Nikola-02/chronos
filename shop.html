@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+
+    <!-- LINKS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MATERIAL ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <title>Chronos</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-nav shop-header">
+        <div class="header-nav-wrapper">
+          <div id="logo">
+            <a href="index.html">
+              <img src="img/logo.png" alt="Chronos logo" />
+            </a>
+          </div>
+          <nav>
+            <ul class="navUl"></ul>
+          </nav>
+          <div class="product-cart-links">
+            <ul>
+              <li class="cartNumberOfProducts">0</li>
+              <li>
+                <a href="cart.html"
+                  ><i class="fa-solid fa-basket-shopping"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-shop">
+        <div class="filters">
+          <form action="index.php" method="get" class="filter-form">
+            <div class="price-title">
+              <h2>Price:</h2>
+            </div>
+            <div class="price-filters">
+              <div class="price-min-max">
+                <label for="price-min">Price min: (€)</label>
+                <input type="number" id="price-min" value="0" />
+                <label for="price-max">Price max: (€)</label>
+                <input type="number" id="price-max" value="2500" />
+              </div>
+            </div>
+            <div class="brand-title">
+              <h2>Brand:</h2>
+            </div>
+            <div class="brand-filters"></div>
+            <div class="category-title">
+              <h2>Category:</h2>
+            </div>
+            <div class="category-filters"></div>
+            <div class="collection-title">
+              <h2>Collection:</h2>
+            </div>
+            <div class="collection-filters"></div>
+          </form>
+        </div>
+        <div class="shop-content">
+          <div class="title-sort">
+            <div class="title-shop">
+              <h1>Products</h1>
+            </div>
+            <div class="sort">
+              <p>Sort by:</p>
+              <select id="ddlSort"></select>
+            </div>
+          </div>
+          <hr />
+          <div class="products"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="up-footer">
+        <div class="info-left">
+          <div class="info-img">
+            <img src="img/logo.png" alt="Chronos logo" />
+          </div>
+          <div class="info-text">
+            <p>
+              Experience elegance on your wrist with your new watch selected
+              from our wide.
+            </p>
+          </div>
+          <div class="info-icons">
+            <div class="info-icons-one">
+              <i class="fa-solid fa-phone"></i
+              ><a href="tel:+381 64236439">+381 64236439</a>
+              <i class="fa-solid fa-envelope"></i
+              ><a href="mailto:info@gmail.com">info@gmail.com</a>
+            </div>
+            <div class="info-icons-one">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Zdravka Čelara 16, Beograd</p>
+            </div>
+          </div>
+        </div>
+        <div class="links-center">
+          <h5>Quick links</h5>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Shop</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Author</a>
+            </li>
+            <li>
+              <a href="#">Documentation</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-right">
+          <h5>Newsletter</h5>
+          <p>Subscribe to get notified</p>
+          <input type="text" id="subscribe" placeholder="Subscribe" />
+          <div class="social-links">
+            <a href="https://www.instagram.com/" target="_blank"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a href="https://sr-rs.facebook.com/" target="_blank"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+            <a href="https://twitter.com/?lang=sr" target="_blank"
+              ><i class="fa-brands fa-square-twitter"></i
+            ></a>
+            <a href="https://rs.linkedin.com/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/" target="_blank"
+              ><i class="fa-brands fa-square-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="down-footer">
+        <p>Copyright ©2023 Visoka ICT škola</p>
+      </div>
+    </footer>
+
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/231b95a13a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
+</html>

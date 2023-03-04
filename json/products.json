@@ -1,0 +1,187 @@
+[
+  {
+    "id": 1,
+    "image": "bestseller_11.png",
+    "name": "Submariner",
+    "brand": 1,
+    "price": {
+      "oldPrice": 2399,
+      "newPrice": 1599
+    },
+    "rating": 5,
+    "collection": 1,
+    "categoryId": [1, 2]
+  },
+  {
+    "id": 2,
+    "image": "bestseller_22.png",
+    "name": "Chronograph",
+    "brand": 4,
+    "price": {
+      "oldPrice": 1899,
+      "newPrice": 1700
+    },
+    "rating": 4,
+    "collection": 1,
+    "categoryId": [2, 3]
+  },
+  {
+    "id": 3,
+    "image": "bestseller_11.png",
+    "name": "Moonwatch",
+    "brand": 3,
+    "price": {
+      "oldPrice": null,
+      "newPrice": 1259
+    },
+    "rating": 3,
+    "collection": 2,
+    "categoryId": [1, 4]
+  },
+  {
+    "id": 4,
+    "image": "bestseller_11.png",
+    "name": "Datejust 36",
+    "brand": 1,
+    "price": {
+      "oldPrice": 999,
+      "newPrice": 899
+    },
+    "rating": 5,
+    "collection": 2,
+    "categoryId": [1]
+  },
+  {
+    "id": 5,
+    "image": "bestseller_11.png",
+    "name": "L.U.C XPS",
+    "brand": 2,
+    "price": {
+      "oldPrice": 1099,
+      "newPrice": 999
+    },
+    "rating": 3,
+    "collection": 1,
+    "categoryId": [2, 4]
+  },
+  {
+    "id": 6,
+    "image": "bestseller_11.png",
+    "name": "HAPPY SPORT",
+    "brand": 2,
+    "price": {
+      "oldPrice": null,
+      "newPrice": 1200
+    },
+    "rating": 4,
+    "collection": 2,
+    "categoryId": [1, 3]
+  },
+  {
+    "id": 7,
+    "image": "bestseller_11.png",
+    "name": "Selfwinding",
+    "brand": 4,
+    "price": {
+      "oldPrice": null,
+      "newPrice": 1199
+    },
+    "rating": 2,
+    "collection": 1,
+    "categoryId": [3]
+  },
+  {
+    "id": 8,
+    "image": "bestseller_11.png",
+    "name": "TRÉSOR",
+    "brand": 3,
+    "price": {
+      "oldPrice": 2090,
+      "newPrice": 1890
+    },
+    "rating": 2,
+    "collection": 2,
+    "categoryId": [2]
+  },
+
+  {
+    "id": 9,
+    "image": "bestseller_11.png",
+    "name": "GMT-MASTER II",
+    "brand": 1,
+    "price": {
+      "oldPrice": 2600,
+      "newPrice": 2399
+    },
+    "rating": 5,
+    "collection": 1,
+    "categoryId": [4]
+  },
+  {
+    "id": 10,
+    "image": "bestseller_11.png",
+    "name": "SEAMASTER",
+    "brand": 3,
+    "price": {
+      "oldPrice": null,
+      "newPrice": 1788
+    },
+    "rating": 3,
+    "collection": 1,
+    "categoryId": [1, 2]
+  },
+
+  {
+    "id": 11,
+    "image": "bestseller_11.png",
+    "name": "Royal Oak",
+    "brand": 4,
+    "price": {
+      "oldPrice": 799,
+      "newPrice": 689
+    },
+    "rating": 5,
+    "collection": 2,
+    "categoryId": [2, 4]
+  },
+  {
+    "id": 12,
+    "image": "bestseller_11.png",
+    "name": "AQUA TERRA",
+    "brand": 3,
+    "price": {
+      "oldPrice": null,
+      "newPrice": 1090
+    },
+    "rating": 2,
+    "collection": 2,
+    "categoryId": [3, 4]
+  },
+
+  {
+    "id": 13,
+    "image": "bestseller_11.png",
+    "name": "EXPLORER",
+    "brand": 1,
+    "price": {
+      "oldPrice": 899,
+      "newPrice": 700
+    },
+    "rating": 3,
+    "collection": 1,
+    "categoryId": [1, 4]
+  },
+  {
+    "id": 14,
+    "image": "bestseller_11.png",
+    "name": "IMPERIALE",
+    "brand": 2,
+    "price": {
+      "oldPrice": null,
+      "newPrice": 1190
+    },
+    "rating": 5,
+    "collection": 2,
+    "categoryId": [2]
+  }
+]
